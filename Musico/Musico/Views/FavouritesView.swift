@@ -1,3 +1,11 @@
+//
+//  FavouritesView.swift
+//  Musico
+//
+//  Created by Sagar Bansal on 1/6/25.
+//
+
+
 import SwiftUI
 
 struct FavouritesView: View {
