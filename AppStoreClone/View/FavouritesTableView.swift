@@ -1,17 +1,5 @@
 import UIKit
 
-struct Song {
-    var name: String
-    var subtitle: String
-    var url: String
-    
-    init(_ name: String, _ subtitle: String, _ url: String) {
-        self.name = name
-        self.subtitle = subtitle
-        self.url = url
-    }
-}
-
 @IBDesignable class FavouritesTableView: UITableView {
     
 //    typealias app = (name: String, subtitle: String, url: String)

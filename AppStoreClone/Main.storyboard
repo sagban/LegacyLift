@@ -174,8 +174,39 @@
                     <view key="view" contentMode="scaleToFill" id="xaY-9o-dbU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OUR FAVOURITES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1z-4f-v71">
+                                <rect key="frame" x="20" y="68" width="121.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Artists" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xO1-YU-kqx">
+                                <rect key="frame" x="20" y="90" width="136.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="DeA-v7-a0T" customClass="SongTableView" customModule="AppStoreClone" customModuleProvider="target">
+                                <rect key="frame" x="20" y="143" width="374" height="774"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="vwType" value="artists"/>
+                                </userDefinedRuntimeAttributes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Agm-Dw-EBu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="X1z-4f-v71" firstAttribute="top" secondItem="Agm-Dw-EBu" secondAttribute="top" constant="20" id="1u1-c7-dDK"/>
+                            <constraint firstItem="xO1-YU-kqx" firstAttribute="trailing" secondItem="DeA-v7-a0T" secondAttribute="trailing" constant="-237.5" id="4uu-LD-Obr"/>
+                            <constraint firstItem="xO1-YU-kqx" firstAttribute="leading" secondItem="Agm-Dw-EBu" secondAttribute="leading" constant="20" id="9ei-al-LLe"/>
+                            <constraint firstItem="xO1-YU-kqx" firstAttribute="top" secondItem="X1z-4f-v71" secondAttribute="bottom" constant="5" id="H64-Bg-rDe"/>
+                            <constraint firstItem="Agm-Dw-EBu" firstAttribute="bottom" secondItem="DeA-v7-a0T" secondAttribute="bottom" id="JQG-mh-2Nd"/>
+                            <constraint firstItem="DeA-v7-a0T" firstAttribute="leading" secondItem="Agm-Dw-EBu" secondAttribute="leading" constant="20" id="YUf-jq-YGh"/>
+                            <constraint firstItem="X1z-4f-v71" firstAttribute="leading" secondItem="Agm-Dw-EBu" secondAttribute="leading" constant="20" id="ixK-3I-nDc"/>
+                            <constraint firstItem="DeA-v7-a0T" firstAttribute="top" secondItem="xO1-YU-kqx" secondAttribute="bottom" constant="20" id="sv2-B1-Eca"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Artists" image="person.fill" catalog="system" id="uOS-Ls-dOE"/>
                     <size key="freeformSize" width="414" height="1000"/>
@@ -191,8 +222,39 @@
                     <view key="view" contentMode="scaleToFill" id="TSh-Ip-eqp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OUR FAVOURITES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7Y-db-OoP">
+                                <rect key="frame" x="20" y="68" width="121.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Album" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L8D-g0-cDG">
+                                <rect key="frame" x="20" y="90" width="133.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="edL-bT-PqN" customClass="SongTableView" customModule="AppStoreClone" customModuleProvider="target">
+                                <rect key="frame" x="20" y="143" width="374" height="753"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="vwType" value="albums"/>
+                                </userDefinedRuntimeAttributes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="DEH-lh-gog"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="L8D-g0-cDG" firstAttribute="top" secondItem="x7Y-db-OoP" secondAttribute="bottom" constant="5" id="IE9-bn-0o4"/>
+                            <constraint firstItem="edL-bT-PqN" firstAttribute="top" secondItem="L8D-g0-cDG" secondAttribute="bottom" constant="20" id="V3t-Jl-Ffz"/>
+                            <constraint firstItem="x7Y-db-OoP" firstAttribute="leading" secondItem="DEH-lh-gog" secondAttribute="leading" constant="20" id="WS5-PY-eZI"/>
+                            <constraint firstItem="x7Y-db-OoP" firstAttribute="top" secondItem="DEH-lh-gog" secondAttribute="top" constant="20" id="ana-BF-FeC"/>
+                            <constraint firstItem="L8D-g0-cDG" firstAttribute="leading" secondItem="DEH-lh-gog" secondAttribute="leading" constant="20" id="fin-NB-QMo"/>
+                            <constraint firstItem="DEH-lh-gog" firstAttribute="trailing" secondItem="edL-bT-PqN" secondAttribute="trailing" constant="20" id="lcI-ct-X1g"/>
+                            <constraint firstAttribute="bottom" secondItem="edL-bT-PqN" secondAttribute="bottom" id="wDs-dv-8dC"/>
+                            <constraint firstItem="edL-bT-PqN" firstAttribute="leading" secondItem="DEH-lh-gog" secondAttribute="leading" constant="20" id="znX-Nu-vgk"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Albums" image="rectangle.fill.on.rectangle.fill" catalog="system" id="ugj-te-6Jo"/>
                 </viewController>
@@ -207,8 +269,41 @@
                     <view key="view" contentMode="scaleToFill" id="5fK-Xd-KgH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OUR FAVOURITES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xAl-nG-YLv">
+                                <rect key="frame" x="20" y="68" width="121.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top Songs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGS-oK-e3d">
+                                <rect key="frame" x="20" y="90" width="131.5" height="33"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-c6-IoC" customClass="SongTableView" customModule="AppStoreClone" customModuleProvider="target">
+                                <rect key="frame" x="20" y="143" width="374" height="753"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="vwType" value="songs"/>
+                                </userDefinedRuntimeAttributes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Xoa-Jv-Ffc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZGS-oK-e3d" firstAttribute="top" secondItem="xAl-nG-YLv" secondAttribute="bottom" constant="5" id="5dm-oL-Sef"/>
+                            <constraint firstItem="eEi-c6-IoC" firstAttribute="leading" secondItem="Xoa-Jv-Ffc" secondAttribute="leading" constant="20" id="Qnd-Dt-4mP"/>
+                            <constraint firstItem="ZGS-oK-e3d" firstAttribute="top" secondItem="xAl-nG-YLv" secondAttribute="bottom" constant="5" id="dUe-Iy-uMD"/>
+                            <constraint firstItem="eEi-c6-IoC" firstAttribute="top" secondItem="ZGS-oK-e3d" secondAttribute="bottom" constant="20" id="gIi-Om-xkD"/>
+                            <constraint firstAttribute="bottom" secondItem="eEi-c6-IoC" secondAttribute="bottom" id="mTO-UF-Hi4"/>
+                            <constraint firstItem="xAl-nG-YLv" firstAttribute="top" secondItem="Xoa-Jv-Ffc" secondAttribute="top" constant="20" id="otf-ls-8q6"/>
+                            <constraint firstItem="Xoa-Jv-Ffc" firstAttribute="trailing" secondItem="eEi-c6-IoC" secondAttribute="trailing" constant="20" id="poO-mn-g3c"/>
+                            <constraint firstItem="xAl-nG-YLv" firstAttribute="leading" secondItem="Xoa-Jv-Ffc" secondAttribute="leading" constant="20" id="tzQ-iu-sLH"/>
+                            <constraint firstItem="ZGS-oK-e3d" firstAttribute="leading" secondItem="Xoa-Jv-Ffc" secondAttribute="leading" constant="20" id="vn2-FX-dF8"/>
+                            <constraint firstItem="eEi-c6-IoC" firstAttribute="top" secondItem="ZGS-oK-e3d" secondAttribute="bottom" constant="20" id="wJP-Wd-Do7"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Songs" image="music.note" catalog="system" id="sLI-1C-txB"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>

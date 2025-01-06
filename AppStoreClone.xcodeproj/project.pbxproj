@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14B000B92D2B74650028D6E8 /* SongTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B000B82D2B745F0028D6E8 /* SongTableView.swift */; };
 		F5F9D50127EB83D800C445CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F9D50027EB83D800C445CF /* AppDelegate.swift */; };
 		F5F9D50327EB83D800C445CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F9D50227EB83D800C445CF /* SceneDelegate.swift */; };
 		F5F9D51727EB845900C445CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F9D51627EB845900C445CF /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14B000B82D2B745F0028D6E8 /* SongTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableView.swift; sourceTree = "<group>"; };
 		F5F9D4FD27EB83D800C445CF /* AppStoreClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStoreClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F9D50027EB83D800C445CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F9D50227EB83D800C445CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		F5F9D51827EB849D00C445CF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14B000B82D2B745F0028D6E8 /* SongTableView.swift */,
 				F5F9D52227EB849D00C445CF /* ArticleView.xib */,
 				F5F9D51E27EB849D00C445CF /* AppCell.xib */,
 				F5F9D51A27EB849D00C445CF /* AppCell.swift */,
@@ -200,6 +203,7 @@
 				F5F9D52D27EB849D00C445CF /* CardView.swift in Sources */,
 				F5F9D53127EB849D00C445CF /* AppTableCell.swift in Sources */,
 				F5F9D50327EB83D800C445CF /* SceneDelegate.swift in Sources */,
+				14B000B92D2B74650028D6E8 /* SongTableView.swift in Sources */,
 				F5F9D53527EB849D00C445CF /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
