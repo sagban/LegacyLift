@@ -85,13 +85,13 @@
 				F5F9D52827EB849D00C445CF /* Main.storyboard */,
 				F5F9D50027EB83D800C445CF /* AppDelegate.swift */,
 				F5F9D50227EB83D800C445CF /* SceneDelegate.swift */,
-				F5F9D51827EB849D00C445CF /* View */,
+				F5F9D51827EB849D00C445CF /* Views */,
 				F5F9D52327EB849D00C445CF /* ViewController */,
 			);
 			path = AppStoreClone;
 			sourceTree = "<group>";
 		};
-		F5F9D51827EB849D00C445CF /* View */ = {
+		F5F9D51827EB849D00C445CF /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				14B000B82D2B745F0028D6E8 /* SongTableView.swift */,
@@ -106,7 +106,7 @@
 				F5F9D52027EB849D00C445CF /* FavouritesTableView.swift */,
 				F5F9D51F27EB849D00C445CF /* GameOfTheDayView.xib */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		F5F9D52327EB849D00C445CF /* ViewController */ = {
