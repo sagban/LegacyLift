@@ -8,8 +8,6 @@ class AppTableCell: UITableViewCell {
     
     
     func setup(icon: String, name: String, subtitle: String) {
-        let bundle = Bundle(for: type(of: self))
-//        iconView.image = UIImage(named: icon, in: bundle, with: nil)
         
         iconView.layer.cornerRadius = iconView.bounds.width / 4
         iconView.layer.borderWidth = 1
